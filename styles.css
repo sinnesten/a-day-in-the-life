@@ -1,0 +1,56 @@
+html {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#menu {
+    padding: 10px;
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+#menu-options {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#menu-options span {
+    text-decoration: underline;
+}
+
+#menu-options ul {
+    padding: 0px;
+}
+
+#menu-options li {
+    margin-left: 40px;
+}
+
+#time {
+    text-decoration: none !important;
+}
+
+#game {
+    padding: 20px;
+    width: 80%;
+}
+
+#location {
+    margin-top: 10px;
+}
+
+#error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#text-options > li {
+    padding: 0px;
+}
+
+#input {
+    border: 0;
+    border-radius: 2px;
+}
