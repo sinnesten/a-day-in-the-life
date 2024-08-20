@@ -1331,7 +1331,7 @@ var script = {
 		},
 		"achievement": [
 			"Culinary Innovator",
-			"Your new recipe took Gielinor's culinary scene by storm."
+			"Took Gielinor's culinary scene by storm."
 		]
 	},
 	"206": {
@@ -1381,7 +1381,11 @@ var script = {
 			"End the game.": [
 				"210"
 			]
-		}
+		},
+		"achievement": [
+			"Perfect Day",
+			"Obtained the best possible ending."
+		]
 	},
 	"210": {
 		"text": [
