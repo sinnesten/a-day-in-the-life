@@ -12,13 +12,13 @@ $(document).ready(function () {
     }
     var time = 14;
     var items = [];
-    var coins = 10000;
+    var coins = 8000;
     var achievements = {};
 
     var currentOptions = {};
     var index = "0";
     var isEpilogue = false;
-    
+
     loadTextAndOptions(index);
     $("#input").on("keyup", processInput);
 
@@ -63,6 +63,7 @@ $(document).ready(function () {
         if (["2", "3", "4"].includes(index)) {
             loadCoins();
             loadTime();
+            $("#items-label").show();
         }
 
         if (Object.keys(script[index]).includes("time")) {
@@ -105,7 +106,7 @@ $(document).ready(function () {
         choice = "1";
         index = "200";
         isEpilogue = true;
-        
+
         loadTextAndOptions(index);
     }
 
@@ -206,6 +207,7 @@ $(document).ready(function () {
     }
 
     function loadGoals() {
+        $("#goals-label").show();
         $("#goals").empty();
         goalString = "";
         for (let goal in goals) {

@@ -996,7 +996,7 @@ var script = {
 				"174",
 				"175"
 			],
-			"I think it's time for me to go.": [
+			"\"I think it's time for me to go.\"": [
 				"176"
 			]
 		}
@@ -1267,7 +1267,7 @@ var script = {
 			"\"Come on, mom, that's not fair,\" you complain, trying to extricate yourself from her arms. \"I've never forgotten even once!\"",
 			"She releases you and sniffs the air curiously. \"What is that smell?\"",
 			"\"I'm baking a special cake for Iris. It's made with a rare kind of pineapple grown by the Bedabin people near the coast. They call it 'the ambrosia of the desert'.\"",
-			"\"Well, that sounds wonderful, sweetie. You do that, and I'll get Katie to start making dinner.\""
+			"\"Well, that sounds wonderful, sweetie. You do that, and I'll get the maid to start making dinner.\""
 		],
 		"options": {
 			"Later, at dinnertime...": [
@@ -1284,7 +1284,7 @@ var script = {
 			"\"Come on, mom, that's not fair,\" you complain, trying to extricate yourself from her arms. \"I've never forgotten even once!\"",
 			"She releases you and sniffs the air curiously. \"What is that smell?\"",
 			"\"I'm baking a… special cake for Iris. It's a surprise.\"",
-			"She quirks an eyebrow. \"That certainly sounds interesting, sweetie. You do that, and I'll get Katie to start making dinner.\""
+			"She quirks an eyebrow. \"That certainly sounds interesting, sweetie. You do that, and I'll get the maid to start making dinner.\""
 		],
 		"options": {
 			"Later, at dinnertime...": [
@@ -1357,7 +1357,8 @@ var script = {
 			"End the game.": [
 				"210"
 			]
-		}
+		},
+		"location": "Home"
 	},
 	"208": {
 		"text": [
@@ -1368,7 +1369,8 @@ var script = {
 			"End the game.": [
 				"210"
 			]
-		}
+		},
+		"location": "Home"
 	},
 	"209": {
 		"text": [
@@ -1382,6 +1384,7 @@ var script = {
 				"210"
 			]
 		},
+		"location": "Home",
 		"achievement": [
 			"Perfect Day",
 			"Obtained the best possible ending."
