@@ -14,7 +14,7 @@ html {
     background-color: #BEA9E9;
     border-radius: 5px;
     border: 3px rebeccapurple dashed;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 #menu-options {
